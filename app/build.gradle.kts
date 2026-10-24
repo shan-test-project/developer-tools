@@ -21,6 +21,10 @@ android {
         applicationId = "com.unixshells.devbrowser"
         minSdk = 35
         targetSdk = 35
+
+        ndk {
+            abiFilters += "arm64-v8a"
+        }
         versionCode = 3
         versionName = "0.1.0"
     }
