@@ -19,7 +19,7 @@ android {
 
     defaultConfig {
         applicationId = "com.unixshells.devbrowser"
-        minSdk = 35
+        minSdk = 21
         targetSdk = 35
 
         ndk {
